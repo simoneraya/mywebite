@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simone Geggie</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background: #e4b8bf;;
+            text-align: center;
+            font-size: large;
+        }
+        header {
+            background-color: #987e64;
+            color: #5d4723;
+            padding: 1em;
+            font-weight: bolder;
+            font-size: 0.5em;
+        }
+        main {
+            padding: 1em;
+        }
+        .block {
+            display: inline-block;
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            margin: 10px;
+            background-color: #987e64;
+            color: #5d4723;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            line-height: 100px; /* Center text vertically */
+            font-weight: bolder;
+            font-size: 0.8em;
+            position: relative;
+            clip-path: path('M50 15 
+                A20 20 0 0 1 70 35 
+                L50 60 
+                L30 35 
+                A20 20 0 0 1 50 15 Z'); /* Heart shape */
+        }
+        .block:hover {
+            background-color: #cdbd9b;
+        }
+        .star-left,
+        .star-right {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: #81d285;
+            clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%
+            ); /* Star shape */
+        }
+        .star-left {
+            left: calc(-20px - 2em);
+        }
+        .star-right {
+            right: calc(-20px - 2em);
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 0.2em;
+            background-color: #a09377;
+            color: #e7cde4;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simone Geggie</h1>
+    </header>
+    <main>
+        <a href="aboutme.html" class="block">About Me</a>
+        <a href="blog.html" class="block">Blog</a>
+        <a href="experience.html" class="block">Experience</a>
+        <a href="dissertation.html" class="block">Dissertation</a>
+    </main>
+    <div>
+        <img src="Images/IMG_7402.jpg" width=350 height=450 alt="Background Image">
+    </div>
+    
+
+    <footer>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e4b8bf;
+            text-align: center;
+            font-size: large;
+            position: relative; /* Allows positioning of the image */
+        }
+        header {
+            background-color: #987e64;
+            color: #5d4723;
+            padding: 1em;
+            font-weight: bolder;
+            font-size: 0.5em;
+            position: relative;
+        }
+        main {
+            padding: 1em;
+            /* position: relative; 
+            z-index: 1;  */
+        }
+        .textbox {
+            background-color: #987e64;
+            color: #493616;
+            padding: 5px;
+            margin: 20px auto;
+            width: 75%;
+            border-radius: 5px;
+            font-size: 0.8em;
+            text-align: left;
+            position: relative;
+            z-index: 1; /* Ensures text is above the image */
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 0.3em;
+            background-color:#B99976;
+            color: #e7cde4;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        .background-image {
+            display: block;
+            margin: 20px auto; /* Center the image horizontally */
+            width: 75%; /* Adjust size as needed */
+            height: auto;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+            z-index: 0; /* Ensure it stays in the background */
+            border: black;
+        }
+        .navbar {
+            position: absolute;
+            top: 10px;
+            left: 10px; /* Position it on the left */
+            z-index: 1; /* Ensure it appears above other content */
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropbtn {
+            background-color: #5d4723;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            left: 0; /* Align the left side with the button */
+            top: 40px; /* Adjust if necessary */
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">☰</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="dissertation.html">Dissertation</a>
+                    <a href="experience.html">Experience</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="textbox">
+            <p>Thank you for checking out my website! I am a Toronto born, London based student pursuing a dual MA/MSc degree in International History at Columbia and the London School of Economics. I  graduated from McGill University in 2023 where I studied history, political science, and South Asian studies. My interdisciplinary degree sparked my thematic interest in democracy development in differing contexts with a particular interest in foreign policy. I was fascinated by the comparative histories of The United States and South Asia and was eager to continue my studies at the graduate level in a program that emphasized international dynamics and relations.</p>
+            <p>As a critical thinker, I am deeply passionate about exploring historical events and understanding their profound impact on our modern world. I find fulfillment in investigating historical narratives, deconstructing accepted viewpoints, and challenging conventional wisdom to develop a more nuanced and informed perspective.</p>
+            <p>At Columbia, I have strengthened my research skills in the Rare Books and Manuscripts Archive, where I deepened my ability to manage and interpret complex qualitative and quantitative data for historical analysis and synthesis. My experience in the field of International History has ingrained a methodological approach to problem solving and an ability to analyze intricate issues. The task of the Master’s dissertation has strengthened my independence as a thinker; it has challenged me to not only create new scholarly ideas but also work independently. The majority of my work has been focused on writing and a writing-thinking approach to knowledge production. I have developed advanced skills in organization, argumentation, criticality, and time management in my writing process.</p>
+            <p>Beyond academics, I enjoy reading, traveling, movies, and engaging in thought-provoking discussions. I am driven by a desire to better understand global processes and historical cycles. This website serves as a portfolio of my research interests, professional experiences, and some of my thoughts published on the blog section.</p>
+        </div>
+        <img class="background-image" src="Images/IMG_1581.jpeg" alt="Image4" width = 500px>
+    </main>
+    <footer>
+        <p>SRG</p>
+    </footer>
+</body>
+</html>

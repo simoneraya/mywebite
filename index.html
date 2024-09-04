@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simone Geggie</title>
+    <style>
+            body {
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+            background: #e4b8bf;
+            text-align: center;
+            font-size: large;
+        }
+        header {
+            background-color: #987e64;
+            color: #493616;;
+            padding: 1em;
+            font-weight: bolder;
+            font-size: 0.8em;
+        }
+        main {
+            padding: 1em;
+        }
+        .block {
+            display: inline-block;
+            width: 100px; 
+            height: 100px; 
+            margin: 10px;
+            background-color: #987e64;
+            color: #493616;;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            line-height: 100px;
+            font-weight: bolder;
+            font-size: 0.8em;
+            position: relative;
+           
+        }
+        .block:hover {
+            background-color: #c68b95;
+
+        }
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 0.2em;
+            background-color: #a09377;
+            color: #e7cde4;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            position:relative;
+            gap: 10px;
+            margin: 10px;
+            max-width: 100%;
+            height: 200px;
+        }
+        .animated-image {
+            width: 10%;
+            height:auto;
+            position:absolute;
+            top: 0;
+        }
+        .animated-image2 {
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%)
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simone Geggie</h1>
+    </header>
+    <main>
+        <a href="aboutme.html" class="block">About Me</a>
+        <a href="blog.html" class="block">Blog</a>
+        <a href="experience.html" class="block">Experience</a>
+        <a href="dissertation.html" class="block">Dissertation</a>
+    </main>
+    <div>
+        <img src="Images/IMG_7402.jpg" width=350 height=450 alt="Background Image">
+    </div>
+    <div class="content-container">
+        <img class="background-image" src="Images/Stars.gif" alt="animated-image">
+        <img class="animated-image2" src="Images/Stars.gif" alt="animated-image2">
+    <footer>
+    </footer>
+</body>
+</html>

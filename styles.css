@@ -8,7 +8,7 @@ body {
     font-size: large;
 }
 header {
-    background-color:  #987e64;
+    background-color:  #e9e9e9;
     color: #493616;;
     padding: 1em;
     font-weight: bolder;
@@ -19,7 +19,7 @@ main {
 }
 
 .textbox {
-    background-color:#c9af94;
+    background-color: #e9e9e9;
     color: #493616;
     padding: 15px;
     margin: 20px auto;
@@ -41,7 +41,7 @@ main {
     display: inline-block;
 }
 .dropbtn {
-    background-color: #5d4723;
+    background-color: #c4c4f4;
     color: white;
     border: none;
     padding: 10px;

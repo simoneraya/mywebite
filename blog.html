@@ -150,67 +150,6 @@
         flex-direction: column; 
     }
 
-    .navbar {
-        position: absolute;
-        top: 10px;
-        left: 10px; 
-        z-index: 1; 
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-
-    .dropbtn {
-        background-color: #5d4723;
-        color: white;
-        border: none;
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100%; /* Full width on mobile */
-        text-align: left; /* Align text to the left */
-        box-sizing: border-box;
-    }
-
-    /* Background color to make sure the dropdown is visible */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        left: 0; 
-        top: 40px;
-        border: 1px solid #ddd; /* Border to make it visible */
-        background-color: #ffffff; /* Make it white */
-    }
-
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-        border-bottom: 1px solid #ddd; /* Add a bottom border to the links */
-    }
-
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block; /* Show the dropdown on hover */
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color: #ddd;
-        color: black;
-    }
-
     /* Hide the sidebar on mobile */
     .sidebar {
         display: none;
@@ -225,17 +164,17 @@
     }
 
     .tabs {
-        flex-direction: row; /* Keep tabs in a row on mobile */
+        flex-direction: row; 
         width: 100%;
-        margin: -190px;  /* Center the tabs horizontally */
+        margin: -190px;  
     }
 
     .tabs a {
-        width: auto;  /* Allow tabs to take their natural width */
-        padding: 15px 20px;  /* Increase padding for easier tapping on mobile */
+        width: auto;  
+        padding: 15px 20px;  
     }
 
-    /* Remove the sidebar stars on mobile */
+
     .sidebar-gif img {
         display: none;
     }
@@ -350,8 +289,7 @@
 
     </section>
     </section>  
-
-                
+   
                 
             </section>
 
@@ -375,7 +313,6 @@ tabs.forEach(tab => {
         document.getElementById(activeTab).classList.add('active');
     });
 });
-
 
     </script>
       
